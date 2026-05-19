@@ -129,7 +129,7 @@ span {
 }
 
 .home-img{
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .home-img img{
@@ -223,20 +223,17 @@ span {
 }
 
 @keyframes words {
-    0%, 20% {
+    0%, 25% {
         content: "Web Developer";
     }
-    21%, 40% {
-        content: "Developer";
+    26%, 50% {
+        content: "Gamer";
     }
-    41%, 60% {
-        content: "Web Designer";
-    }
-    61%, 80%{
+    51%, 75%{
         content: "Youtuber";
     }
-    81%, 100% {
-        content: "Script Writer";
+    76%, 100%{
+        content: "Programmer";
     }
 }
 
@@ -264,4 +261,8 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
+}
+
+footer{
+    text-align: center;
 }
